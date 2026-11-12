@@ -1,0 +1,73 @@
+[{
+  "_id": "GUI001",
+  "tipo": "guia",
+  "nombre": "Andres Gomez",
+  "experiencia": 5,
+  "telefono": "3014567890",
+  "estado": "activo",
+  "idiomas": [
+    {
+      "nombre": "Espanol",
+      "nivel": "Nativo"
+    },
+    {
+      "nombre": "Ingles",
+      "nivel": "Intermedio"
+    }
+  ],
+  "contacto": {
+    "correo": "andres@gmail.com",
+    "ciudad": "Medellin"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-04T00:00:00.000Z"
+  }
+},
+{
+  "_id": "PAQ004",
+  "nombre": "Senderismo en el Cocuy",
+  "destino": {
+    "ciudad": "El Cocuy",
+    "region": "Andina"
+  },
+  "precio": 1200000,
+  "duracion": 5,
+  "guia": null,
+  "alojamiento": "Refugio de Montana",
+  "actividades": [
+    {
+      "nombre": "Senderismo extremo",
+      "tipo": "aventura",
+      "duracion": 5
+    },
+    {
+      "nombre": "Observacion natural",
+      "tipo": "naturaleza",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ008",
+  "nombre": "Rapel en Santander",
+  "destino": {
+    "ciudad": "San Gil",
+    "region": "Andina"
+  },
+  "precio": 1100000,
+  "duracion": 3,
+  "guia": null,
+  "alojamiento": "Hotel Campestre",
+  "actividades": [
+    {
+      "nombre": "Rapel",
+      "tipo": "aventura",
+      "duracion": 5
+    },
+    {
+      "nombre": "Caminata ecologica",
+      "tipo": "naturaleza",
+      "duracion": 2
+    }
+  ]
+}]

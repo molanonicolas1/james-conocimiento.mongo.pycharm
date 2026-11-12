@@ -1,0 +1,23 @@
+[{
+  "_id": "PD001",
+  "paquete": "Aventura Antioquena",
+  "destino": "Guatape",
+  "orden_visita": 1,
+  "destinos": [
+    {
+      "nombre": "Piedra del Penol",
+      "orden": 1
+    },
+    {
+      "nombre": "Embalse de Guatape",
+      "orden": 2
+    }
+  ],
+  "informacion": {
+    "departamento": "Antioquia",
+    "pais": "Colombia"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-07T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,26 @@
+[{
+  "_id": "ACT001",
+  "tipo": "actividad",
+  "nombre": "Paseo en lancha",
+  "destino": "Guatape",
+  "precio": 50000,
+  "duracion": "1 hora",
+  "estado": "disponible",
+  "participantes": [
+    {
+      "nombre": "Carlos",
+      "cantidad": 2
+    },
+    {
+      "nombre": "Laura",
+      "cantidad": 3
+    }
+  ],
+  "responsable": {
+    "nombre": "Andres Gomez",
+    "telefono": "3014567890"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-09T00:00:00.000Z"
+  }
+}]

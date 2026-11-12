@@ -1,0 +1,119 @@
+[{
+  "_id": "PROM001",
+  "tipo": "promocion",
+  "nombre": "Descuento de temporada",
+  "descuento": 20,
+  "codigo": "VIAJA20",
+  "paquetes": [
+    {
+      "nombre": "Aventura Antioquena",
+      "descuento": 20
+    },
+    {
+      "nombre": "Tour Medellin",
+      "descuento": 15
+    }
+  ],
+  "condiciones": {
+    "minimo_personas": 2,
+    "vigencia": "Diciembre"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": "PAQ012",
+  "nombre": "Canopy en el Quindio",
+  "destino": {
+    "ciudad": "Montenegro",
+    "region": "Andina"
+  },
+  "precio": 650000,
+  "duracion": 2,
+  "guia": null,
+  "actividades": [
+    {
+      "nombre": "Canopy",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Recorrido natural",
+      "tipo": "naturaleza",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ006",
+  "nombre": "Escapada a Guatape",
+  "destino": {
+    "ciudad": "Guatape",
+    "region": "Andina"
+  },
+  "precio": 500000,
+  "duracion": 2,
+  "guia": "Luis Torres",
+  "alojamiento": "Hotel Los Recuerdos",
+  "actividades": [
+    {
+      "nombre": "Paseo en lancha",
+      "tipo": "recreativa",
+      "duracion": 2
+    },
+    {
+      "nombre": "Visita a la Piedra del Penol",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ009",
+  "nombre": "Turismo en el Eje Cafetero",
+  "destino": {
+    "ciudad": "Salento",
+    "region": "Andina"
+  },
+  "precio": 700000,
+  "duracion": 4,
+  "guia": "Daniel Rojas",
+  "alojamiento": "Hotel Mirador",
+  "actividades": [
+    {
+      "nombre": "Recorrido por el Valle de Cocora",
+      "tipo": "naturaleza",
+      "duracion": 3
+    },
+    {
+      "nombre": "Tour cafetero",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ005",
+  "nombre": "Kayak en Santa Marta",
+  "destino": {
+    "ciudad": "Santa Marta",
+    "region": "Caribe"
+  },
+  "precio": 850000,
+  "duracion": 4,
+  "guia": "Pedro Ramirez",
+  "alojamiento": "Hotel Playa Blanca",
+  "actividades": [
+    {
+      "nombre": "Kayak",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Visita a la playa",
+      "tipo": "recreativa",
+      "duracion": 2
+    }
+  ]
+}]

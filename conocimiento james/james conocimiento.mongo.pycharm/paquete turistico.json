@@ -1,0 +1,286 @@
+[{
+  "_id": "PAQ001",
+  "nombre": "Aventura en Cartagena",
+  "destino": {
+    "ciudad": "Cartagena",
+    "region": "Caribe"
+  },
+  "precio": 1800000,
+  "duracion": 6,
+  "guia": "Carlos Martinez",
+  "alojamiento": "Hotel Caribe",
+  "actividades": [
+    {
+      "nombre": "Buceo",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Recorrido historico",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ002",
+  "nombre": "Explorando San Andres",
+  "destino": {
+    "ciudad": "San Andres",
+    "region": "Caribe"
+  },
+  "precio": 2200000,
+  "duracion": 7,
+  "guia": "Andres Gomez",
+  "alojamiento": "Hotel Bahia Azul",
+  "actividades": [
+    {
+      "nombre": "Snorkel",
+      "tipo": "aventura",
+      "duracion": 5
+    },
+    {
+      "nombre": "Recorrido por la isla",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ003",
+  "nombre": "Parapente en Medellin",
+  "destino": {
+    "ciudad": "Medellin",
+    "region": "Andina"
+  },
+  "precio": 950000,
+  "duracion": 3,
+  "guia": "Juan Perez",
+  "alojamiento": "Hotel Laureles",
+  "actividades": [
+    {
+      "nombre": "Parapente",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Tour por Medellin",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ004",
+  "nombre": "Senderismo en el Cocuy",
+  "destino": {
+    "ciudad": "El Cocuy",
+    "region": "Andina"
+  },
+  "precio": 1200000,
+  "duracion": 5,
+  "guia": null,
+  "alojamiento": "Refugio de Montana",
+  "actividades": [
+    {
+      "nombre": "Senderismo extremo",
+      "tipo": "aventura",
+      "duracion": 5
+    },
+    {
+      "nombre": "Observacion natural",
+      "tipo": "naturaleza",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ005",
+  "nombre": "Kayak en Santa Marta",
+  "destino": {
+    "ciudad": "Santa Marta",
+    "region": "Caribe"
+  },
+  "precio": 850000,
+  "duracion": 4,
+  "guia": "Pedro Ramirez",
+  "alojamiento": "Hotel Playa Blanca",
+  "actividades": [
+    {
+      "nombre": "Kayak",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Visita a la playa",
+      "tipo": "recreativa",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ006",
+  "nombre": "Escapada a Guatape",
+  "destino": {
+    "ciudad": "Guatape",
+    "region": "Andina"
+  },
+  "precio": 500000,
+  "duracion": 2,
+  "guia": "Luis Torres",
+  "alojamiento": "Hotel Los Recuerdos",
+  "actividades": [
+    {
+      "nombre": "Paseo en lancha",
+      "tipo": "recreativa",
+      "duracion": 2
+    },
+    {
+      "nombre": "Visita a la Piedra del Penol",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ007",
+  "nombre": "Buceo en San Andres",
+  "destino": {
+    "ciudad": "San Andres",
+    "region": "Caribe"
+  },
+  "precio": 2500000,
+  "duracion": 8,
+  "guia": "Miguel Castro",
+  "alojamiento": "Hotel Coral",
+  "actividades": [
+    {
+      "nombre": "Buceo profundo",
+      "tipo": "aventura",
+      "duracion": 6
+    },
+    {
+      "nombre": "Paseo en catamaran",
+      "tipo": "recreativa",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ008",
+  "nombre": "Rapel en Santander",
+  "destino": {
+    "ciudad": "San Gil",
+    "region": "Andina"
+  },
+  "precio": 1100000,
+  "duracion": 3,
+  "guia": null,
+  "alojamiento": "Hotel Campestre",
+  "actividades": [
+    {
+      "nombre": "Rapel",
+      "tipo": "aventura",
+      "duracion": 5
+    },
+    {
+      "nombre": "Caminata ecologica",
+      "tipo": "naturaleza",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ009",
+  "nombre": "Turismo en el Eje Cafetero",
+  "destino": {
+    "ciudad": "Salento",
+    "region": "Andina"
+  },
+  "precio": 700000,
+  "duracion": 4,
+  "guia": "Daniel Rojas",
+  "alojamiento": "Hotel Mirador",
+  "actividades": [
+    {
+      "nombre": "Recorrido por el Valle de Cocora",
+      "tipo": "naturaleza",
+      "duracion": 3
+    },
+    {
+      "nombre": "Tour cafetero",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ010",
+  "nombre": "Aventura en el Amazonas",
+  "destino": {
+    "ciudad": "Leticia",
+    "region": "Amazonica"
+  },
+  "precio": 1400000,
+  "duracion": 5,
+  "guia": "Santiago Lopez",
+  "alojamiento": "Hotel Selva",
+  "actividades": [
+    {
+      "nombre": "Senderismo por la selva",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Avistamiento de aves",
+      "tipo": "naturaleza",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ011",
+  "nombre": "Cartagena y sus playas",
+  "destino": {
+    "ciudad": "Cartagena",
+    "region": "Caribe"
+  },
+  "precio": 1600000,
+  "duracion": 5,
+  "guia": null,
+  "actividades": [
+    {
+      "nombre": "Paseo en lancha",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Visita al centro historico",
+      "tipo": "cultural",
+      "duracion": 2
+    }
+  ]
+},
+{
+  "_id": "PAQ012",
+  "nombre": "Canopy en el Quindio",
+  "destino": {
+    "ciudad": "Montenegro",
+    "region": "Andina"
+  },
+  "precio": 650000,
+  "duracion": 2,
+  "guia": null,
+  "actividades": [
+    {
+      "nombre": "Canopy",
+      "tipo": "aventura",
+      "duracion": 4
+    },
+    {
+      "nombre": "Recorrido natural",
+      "tipo": "naturaleza",
+      "duracion": 2
+    }
+  ]
+}]

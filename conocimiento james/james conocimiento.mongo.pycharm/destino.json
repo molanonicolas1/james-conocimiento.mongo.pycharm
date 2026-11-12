@@ -1,0 +1,26 @@
+[{
+  "_id": "DEST001",
+  "tipo": "destino",
+  "nombre": "Guatape",
+  "ciudad": "Guatape",
+  "pais": "Colombia",
+  "precio": 250000,
+  "estado": "activo",
+  "actividades": [
+    {
+      "nombre": "Piedra del Penol",
+      "precio": 25000
+    },
+    {
+      "nombre": "Paseo en lancha",
+      "precio": 50000
+    }
+  ],
+  "ubicacion": {
+    "departamento": "Antioquia",
+    "zona": "Oriente"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-01T00:00:00.000Z"
+  }
+}]

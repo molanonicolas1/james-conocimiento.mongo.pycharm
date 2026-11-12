@@ -1,0 +1,25 @@
+[{
+  "_id": "CLI001",
+  "tipo": "cliente",
+  "nombre": "Nicolas Perez",
+  "edad": 25,
+  "correo": "nicolas@gmail.com",
+  "estado": "activo",
+  "reservas": [
+    {
+      "paquete": "Aventura Antioquena",
+      "cantidad": 2
+    },
+    {
+      "paquete": "Tour Medellin",
+      "cantidad": 1
+    }
+  ],
+  "contacto": {
+    "telefono": "3021234567",
+    "ciudad": "Medellin"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-05T00:00:00.000Z"
+  }
+}]

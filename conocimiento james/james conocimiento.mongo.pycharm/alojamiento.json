@@ -1,0 +1,26 @@
+[{
+  "_id": "ALO001",
+  "tipo": "alojamiento",
+  "nombre": "Hotel Los Recuerdos",
+  "ciudad": "Guatape",
+  "habitaciones": 30,
+  "precio_noche": 180000,
+  "estado": "disponible",
+  "servicios": [
+    {
+      "nombre": "Piscina",
+      "disponible": true
+    },
+    {
+      "nombre": "Restaurante",
+      "disponible": true
+    }
+  ],
+  "ubicacion": {
+    "departamento": "Antioquia",
+    "direccion": "Zona turistica"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-08T00:00:00.000Z"
+  }
+}]

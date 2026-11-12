@@ -1,0 +1,25 @@
+[{
+  "_id": "TRA001",
+  "tipo": "transporte",
+  "nombre": "Bus turistico",
+  "capacidad": 40,
+  "placa": "ABC123",
+  "estado": "disponible",
+  "recorridos": [
+    {
+      "origen": "Medellin",
+      "destino": "Guatape"
+    },
+    {
+      "origen": "Guatape",
+      "destino": "Penol"
+    }
+  ],
+  "conductor": {
+    "nombre": "Carlos Ramirez",
+    "telefono": "3001234567"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-03T00:00:00.000Z"
+  }
+}]

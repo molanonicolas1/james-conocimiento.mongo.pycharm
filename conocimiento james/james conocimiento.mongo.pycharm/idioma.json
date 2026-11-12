@@ -1,0 +1,24 @@
+[{
+  "_id": "IDI001",
+  "tipo": "idioma",
+  "nombre": "Ingles",
+  "nivel": "Internacional",
+  "estado": "activo",
+  "guias": [
+    {
+      "nombre": "Andres Gomez",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Laura Martinez",
+      "nivel": "Avanzado"
+    }
+  ],
+  "informacion": {
+    "codigo": "EN",
+    "categoria": "Extranjero"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-06T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,26 @@
+[{
+  "_id": "RES001",
+  "tipo": "reserva",
+  "cliente": "Nicolas Perez",
+  "paquete": "Aventura Antioquena",
+  "cantidad_personas": 2,
+  "valor_total": 900000,
+  "estado": "confirmada",
+  "pasajeros": [
+    {
+      "nombre": "Nicolas Perez",
+      "edad": 25
+    },
+    {
+      "nombre": "Maria Lopez",
+      "edad": 23
+    }
+  ],
+  "pago": {
+    "metodo": "Transferencia",
+    "estado": "pagado"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-10T00:00:00.000Z"
+  }
+}]

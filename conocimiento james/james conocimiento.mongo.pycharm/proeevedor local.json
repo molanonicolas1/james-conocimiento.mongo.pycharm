@@ -1,0 +1,25 @@
+[{
+  "_id": "PRO001",
+  "tipo": "proveedor_local",
+  "nombre": "Restaurante El Penol",
+  "servicio": "Alimentacion",
+  "ciudad": "Guatape",
+  "estado": "activo",
+  "servicios": [
+    {
+      "nombre": "Desayuno",
+      "precio": 18000
+    },
+    {
+      "nombre": "Almuerzo",
+      "precio": 25000
+    }
+  ],
+  "contacto": {
+    "telefono": "3034567890",
+    "correo": "restaurante@gmail.com"
+  },
+  "fecha_registro": {
+    "$date": "2026-10-07T00:00:00.000Z"
+  }
+}]
